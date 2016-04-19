@@ -1,5 +1,6 @@
+sudo: required
 language: c
 
 script: make && make test
 
-install: apt-get install check
+install: sudo apt-get install check
